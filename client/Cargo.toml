@@ -1,0 +1,15 @@
+[package]
+name = "client"
+version = "0.1.0"
+authors = ["Simon Heath <icefoxen@gmail.com>"]
+
+[dependencies]
+base64 = "0.7"
+ring = "0.12"
+untrusted = "0.5"
+#reqwest = "0.7"
+reqwest = { git = "https://github.com/seanmonstar/reqwest.git", rev="a646bb56deccf7004d7069e5b13bbbf8042598d7"}
+protocol = {path = "../protocol"}
+rustyline = "1"
+serde_derive = "1"
+serde = "1"
