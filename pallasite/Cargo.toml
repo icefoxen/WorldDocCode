@@ -1,0 +1,10 @@
+[package]
+name = "pallasite"
+version = "0.1.0"
+authors = ["Simon Heath <icefoxen@gmail.com>"]
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+cid = "0.2"
+serde = "1"
+serde_derive = "1"
